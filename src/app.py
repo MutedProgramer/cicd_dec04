@@ -15,7 +15,7 @@ def division (a,b):
 def log (a, b):
     if a <= 0:
         return ValueError("A must be greater than 0")
-    return math.log(a, base)
+    return math.log(a, b)
 
 def square(a):
     return a**2
@@ -31,5 +31,5 @@ def sin(a):
 def cos(a):
     return math.cos(a)
 
-def perecentage(a):
+def percentage(a):
     return a / 100
