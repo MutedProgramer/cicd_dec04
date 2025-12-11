@@ -9,10 +9,10 @@ def multiply (a,b):
 def division (a,b):
     if b == 0:
         return ValueError("Cannot divide by zero")
-    return a/b
+    return a / b
 #advance operations
 
-def log (a, b):
+def log (a, b=10):
     if a <= 0:
         return ValueError("A must be greater than 0")
     return math.log(a, b)
@@ -26,10 +26,10 @@ def squareroot(a):
     return math.sqrt(a)
 
 def sin(a):
-    math.sin(a)
+    return round(math.sin(a), 10)
 
 def cos(a):
-    return math.cos(a)
+    return round(math.cos(a), 10)
 
 def percentage(a):
     return a / 100
